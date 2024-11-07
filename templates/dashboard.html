@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch Monitoring Dashboard</title>
+</head>
+<body>
+    <h1>Switch Monitoring Dashboard</h1>
+    <div>
+        <p><strong>Peak Utilization:</strong> {{ peak }}%</p>
+        <p><strong>Average Utilization:</strong> {{ avg }}%</p>
+    </div>
+    <div>{{ graph | safe }}</div>
+</body>
+</html>
